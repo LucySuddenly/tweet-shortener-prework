@@ -27,3 +27,6 @@ def bulk_tweet_shortener(array)
     puts word_substituter(element)
   end 
 end 
+def selective_tweet_shortener(string)
+  
+end
