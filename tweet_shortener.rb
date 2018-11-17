@@ -14,9 +14,11 @@ def dictionary
 end
 
 def word_substituter(string)
-  string.split.each do |element|
+  string.split.collect do |element|
     if dictionary.keys.include?(element)
       element = dictionary[element]
+    else 
+      
     end 
   end.join(" ")
 end 
