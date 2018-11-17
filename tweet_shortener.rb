@@ -18,7 +18,7 @@ def word_substituter(string)
     if dictionary.keys.include?(element)
       element = dictionary[element]
     else 
-      
+      element
     end 
   end.join(" ")
 end 
