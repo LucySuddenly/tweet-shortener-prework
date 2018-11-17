@@ -29,7 +29,7 @@ def bulk_tweet_shortener(array)
 end 
 def selective_tweet_shortener(string)
   binding.pry
-  if string.count < 140
+  if string.count("a-z") < 140
     word_substituter(string)
   end 
 end
