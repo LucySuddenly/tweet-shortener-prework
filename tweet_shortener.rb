@@ -28,7 +28,8 @@ def bulk_tweet_shortener(array)
   end 
 end 
 def selective_tweet_shortener(string)
-  if string. < 140
+  string.split
+  if  < 140
     word_substituter(string)
   end 
 end
